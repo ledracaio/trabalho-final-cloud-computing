@@ -1,0 +1,36 @@
+
+name: CI/CD Pipeline
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0 # Fetch all history for proper analysis
+
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install Flask Flake8
+
+    - name: Run Unit Tests
+      run: |
+        # Navigate to the api directory to run tests
+        python api/test/test_api.py
+
+    - name: Run Flake8 Linting
+      run: |
+        # Stop the build if there are Python syntax errors or undefined names
+        flake8 api --count --select=E9,F63,F7,F82 --show-source --statistics
+        # Exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
+        flake8 api --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
