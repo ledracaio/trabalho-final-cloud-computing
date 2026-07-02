@@ -38,7 +38,7 @@ Siga os passos abaixo para configurar e executar a API em seu ambiente local:
 1.  **Clone o repositório**:
     ```bash
     git clone https://github.com/ledracaio/trabalho-final-cloud-computing.git
-    cd "Final Project Caio Ledra"
+    cd "trabalho-final-cloud-computing"
     ```
 
 2.  **Crie e ative um ambiente virtual** (opcional, mas recomendado):
