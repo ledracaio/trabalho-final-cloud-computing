@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "title": "Introdução à Programação com Python",
+        "category": "Programação",
+        "instructor": "Dr. Ana Silva",
+        "duration_hours": 40,
+        "level": "Iniciante",
+        "price": 299.90,
+        "description": "Aprenda os fundamentos da programação usando Python, a linguagem mais popular do mundo."
+    },
+    {
+        "id": 2,
+        "title": "Design Gráfico Essencial com Figma",
+        "category": "Design",
+        "instructor": "Prof. Carlos Mendes",
+        "duration_hours": 30,
+        "level": "Iniciante",
+        "price": 199.50,
+        "description": "Domine o Figma para criar interfaces e designs gráficos incríveis."
+    },
+    {
+        "id": 3,
+        "title": "Marketing Digital para Empreendedores",
+        "category": "Marketing Digital",
+        "instructor": "Esp. Laura Costa",
+        "duration_hours": 25,
+        "level": "Intermediário",
+        "price": 350.00,
+        "description": "Estratégias eficazes de marketing digital para alavancar seu negócio online."
+    },
+    {
+        "id": 4,
+        "title": "Cloud Computing com AWS: Fundamentos",
+        "category": "Cloud Computing",
+        "instructor": "Eng. Pedro Almeida",
+        "duration_hours": 50,
+        "level": "Iniciante",
+        "price": 499.90,
+        "description": "Explore os serviços essenciais da AWS e construa sua primeira aplicação na nuvem."
+    },
+    {
+        "id": 5,
+        "title": "Inteligência Artificial: Machine Learning Prático",
+        "category": "Inteligência Artificial",
+        "instructor": "Dra. Sofia Pereira",
+        "duration_hours": 60,
+        "level": "Avançado",
+        "price": 799.00,
+        "description": "Implemente algoritmos de Machine Learning e desenvolva modelos preditivos."
+    },
+    {
+        "id": 6,
+        "title": "Desenvolvimento Web Fullstack com React e Node.js",
+        "category": "Programação",
+        "instructor": "Prof. João Santos",
+        "duration_hours": 80,
+        "level": "Intermediário",
+        "price": 899.90,
+        "description": "Crie aplicações web completas com as tecnologias mais demandadas do mercado."
+    },
+    {
+        "id": 7,
+        "title": "Edição de Vídeos Profissional com Adobe Premiere",
+        "category": "Design",
+        "instructor": "Mkt. Fernanda Lima",
+        "duration_hours": 35,
+        "level": "Intermediário",
+        "price": 250.00,
+        "description": "Aprenda a editar vídeos com qualidade cinematográfica usando Adobe Premiere Pro."
+    },
+    {
+        "id": 8,
+        "title": "SEO Avançado: Otimização para Motores de Busca",
+        "category": "Marketing Digital",
+        "instructor": "Consultor Ricardo Rocha",
+        "duration_hours": 20,
+        "level": "Avançado",
+        "price": 420.00,
+        "description": "Técnicas avançadas de SEO para posicionar seu site no topo dos resultados de busca."
+    },
+    {
+        "id": 9,
+        "title": "Segurança na Nuvem com Azure",
+        "category": "Cloud Computing",
+        "instructor": "Esp. Gustavo Oliveira",
+        "duration_hours": 45,
+        "level": "Intermediário",
+        "price": 550.00,
+        "description": "Garanta a segurança de suas aplicações e dados na plataforma Microsoft Azure."
+    },
+    {
+        "id": 10,
+        "title": "Introdução à Ciência de Dados com R",
+        "category": "Inteligência Artificial",
+        "instructor": "Dra. Patrícia Gomes",
+        "duration_hours": 55,
+        "level": "Iniciante",
+        "price": 680.00,
+        "description": "Primeiros passos na ciência de dados, explorando análise e visualização com a linguagem R."
+    },
+    {
+        "id": 11,
+        "title": "DevOps na Prática: CI/CD com Jenkins e Docker",
+        "category": "Cloud Computing",
+        "instructor": "Eng. Rafael Souza",
+        "duration_hours": 70,
+        "level": "Avançado",
+        "price": 950.00,
+        "description": "Implemente pipelines de CI/CD robustas e automatize seus deployments com Jenkins e Docker."
+    }
+]
